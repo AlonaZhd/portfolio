@@ -1,0 +1,12 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+
+    &__item {
+        padding: 1rem 1.5rem;
+        text-transform: uppercase;
+        font-weight: var(--font-semi-bold);
+    }
+}

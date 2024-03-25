@@ -1,0 +1,26 @@
+.hero {
+    background-color: var(--color-brand-dark);
+
+    &__bg {
+        height: 70vh;
+        margin: 0 auto;
+        background-image: url("../../img/hero-bg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &__container {
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    &__content {
+        width: 45%;
+        color: var(--color-primary-light);
+        text-align: center;
+        padding-right: 6rem;
+    }
+}

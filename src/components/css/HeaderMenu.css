@@ -1,0 +1,8 @@
+.header__menu .navigation__item {
+  color: var(--color-primary-light);
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.header__menu .navigation__item:hover {
+  color: var(--color-brand-accent);
+}/*# sourceMappingURL=HeaderMenu.css.map */

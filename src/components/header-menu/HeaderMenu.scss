@@ -1,0 +1,10 @@
+.header__menu {
+    .navigation__item {
+        color: var(--color-primary-light);
+        transition: color 0.5s ease;
+
+        &:hover {
+            color: var(--color-brand-accent);
+        }
+    }
+}
